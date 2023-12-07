@@ -1,0 +1,144 @@
+header {
+    background-color: white;
+    text-align:center;
+    color: #7EAA92;
+    padding: 0;
+    margin: 0;
+    font-size: 50px; !important
+
+}
+
+nav {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    padding: 10px;
+    background-color: peachpuff;
+    width: 100%;
+    text-align: center;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+}
+nav li{
+    margin: 10px;
+    text-align: center;
+    padding: 2%;
+    display: inline;
+    font-size: 1.5em;
+}
+
+main {
+    background-color: white;
+    padding: 5%;
+    color:#FFD9B7;
+    line-height: 1.5;
+}
+
+#container {
+    column-count: 3;
+    column-gap: 80px;
+    column-width: 100px;
+}
+
+#page-wrapper{
+    width:100%;
+    height:100%;
+    margin: auto;
+    background-color: #BEADFA;
+    text-align: center;
+}
+
+h2 {
+    color: #7EAA92;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: #C8E4B2;
+    padding: 5px 5px;
+    font-family: 'Ginga', sans-serif;
+    font-size: 20px;
+}
+
+div #jajang {
+    margin: 1px;
+    background-color: peachpuff;
+    padding: 1vh;
+    color: black;
+}
+
+div #tteok {
+    margin: 1px;
+    background-color: peachpuff;
+    padding: 1vh;
+    color: black;
+}
+
+div #ganjang {
+    margin: 1px;
+    background-color: peachpuff;
+    padding: 1vh;
+    color: black;
+}
+
+
+.cd-modal-action {
+    position: relative;
+}
+.cd-modal-action .btn {
+    width: 60em;
+    height: 70em;
+    background-color: peachpuff;
+    border-radius: 5em;
+    transition: color 0.2s 0.3s, width 0.3s 0s;
+}
+.cd-modal-action .btn.to-circle {
+    width: 4em;
+    color: transparent;
+    transition: color 0.2s 0s, width 0.3s 0.2s;
+}
+.cd-modal-action .cd-modal-bg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-2em);
+    width: 4em;
+    height: 4em;
+    background-color: peachpuff;
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s 0.5s;
+}
+.cd-modal-action .cd-modal-bg.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+footer {
+    background-color: peachpuff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: white
+}
+
+@media screen and (max-width: 750px) {
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    main {
+        width: 100%
+    }
+
+    header {
+        text-align: center;
+    }
+}
